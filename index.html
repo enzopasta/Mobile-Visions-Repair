@@ -55,7 +55,7 @@
   <nav aria-label="Main navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo" aria-label="Mobile Vision Repairs home">
-        <div class="logo-icon">📱</div>
+        <img src="images/logo.png" alt="Mobile Vision Repairs logo" class="nav-logo-img" onerror="this.style.display='none'" />
         <span>Mobile Vision Repairs</span>
       </a>
       <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -72,7 +72,7 @@
   </nav>
 
   <!-- HERO -->
-  <header class="hero">
+  <header class="hero" style="background: linear-gradient(135deg, rgba(13,33,55,.92) 0%, rgba(26,58,92,.88) 60%, rgba(30,77,123,.88) 100%), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;">
     <div class="hero-badge">⭐ 4.7 Rating · 51 Google Reviews</div>
     <h1>Your Trusted Tech Repair<br><span>Experts in Sylmar, CA</span></h1>
     <p>Fast, affordable repairs for iPhones, iPads, Macbooks, gaming consoles, and more. Most repairs completed same day.</p>
@@ -109,35 +109,53 @@
         <p>From cracked screens to dead batteries, we diagnose and fix a wide range of tech issues.</p>
       </div>
       <div class="grid-3">
-        <div class="card">
-          <div class="card-icon">📱</div>
-          <h3>iPhones & Androids</h3>
-          <p>Screen replacements, battery swaps, charging port repairs, and more for all major models including Samsung Galaxy.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80" alt="iPhone and Android phone repair" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">📱</div>
+            <h3>iPhones & Androids</h3>
+            <p>Screen replacements, battery swaps, charging port repairs, and more for all major models including Samsung Galaxy.</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">💻</div>
-          <h3>Macbooks & Laptops</h3>
-          <p>Screen repairs, keyboard replacements, battery service, and hardware diagnostics for Macbook and Microsoft Surface devices.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Macbook and laptop repair" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">💻</div>
+            <h3>Macbooks & Laptops</h3>
+            <p>Screen repairs, keyboard replacements, battery service, and hardware diagnostics for Macbook and Microsoft Surface devices.</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">🎮</div>
-          <h3>Gaming Consoles</h3>
-          <p>Expert repairs for Xbox, PS4, PS5, PS3, and Nintendo Switch — including hardware failures, disc drive issues, and more.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=600&q=80" alt="Gaming console repair PS4 PS5 Xbox Nintendo" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">🎮</div>
+            <h3>Gaming Consoles</h3>
+            <p>Expert repairs for Xbox, PS4, PS5, PS3, and Nintendo Switch — including hardware failures, disc drive issues, and more.</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">📟</div>
-          <h3>iPads & Tablets</h3>
-          <p>Cracked screens, unresponsive digitizers, charging problems, and battery replacements for all iPad generations.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80" alt="iPad and tablet repair" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">📟</div>
+            <h3>iPads & Tablets</h3>
+            <p>Cracked screens, unresponsive digitizers, charging problems, and battery replacements for all iPad generations.</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">🔋</div>
-          <h3>Battery Replacements</h3>
-          <p>Rapid battery swaps that restore your device's battery life and save you from buying a brand-new device.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?auto=format&fit=crop&w=600&q=80" alt="Phone battery replacement service" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">🔋</div>
+            <h3>Battery Replacements</h3>
+            <p>Rapid battery swaps that restore your device's battery life and save you from buying a brand-new device.</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">🔍</div>
-          <h3>Free Diagnostics</h3>
-          <p>Not sure what's wrong? Bring it in and we'll diagnose the issue and provide an honest quote at no charge.</p>
+        <div class="card card-with-img">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80" alt="Free device diagnostics and repair assessment" class="card-top-img" loading="lazy" />
+          <div class="card-body">
+            <div class="card-icon">🔍</div>
+            <h3>Free Diagnostics</h3>
+            <p>Not sure what's wrong? Bring it in and we'll diagnose the issue and provide an honest quote at no charge.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -176,6 +194,44 @@
           <div class="why-icon">📍</div>
           <h4>Walk-ins Welcome</h4>
           <p>No appointment needed — just stop by during hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section section-alt" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Tech repair technician working on a device at Mobile Vision Repairs" loading="lazy" />
+          <div class="about-img-badge">
+            <div class="badge-stat">
+              <span class="badge-num">4.7★</span>
+              <span class="badge-label">Google Rating</span>
+            </div>
+            <div style="width:1px;height:36px;background:var(--border);"></div>
+            <div class="badge-stat">
+              <span class="badge-num">51+</span>
+              <span class="badge-label">Reviews</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-label">About Us</span>
+          <h2 id="about-heading" style="font-size:clamp(1.6rem,3vw,2.1rem);font-weight:800;color:var(--primary);margin:.75rem 0 .75rem;letter-spacing:-.3px;">Sylmar's Trusted Repair Shop</h2>
+          <p style="color:var(--text-light);line-height:1.7;">Antonio and the Mobile Vision Repairs team have been serving the Sylmar community with fast, honest, and high-quality tech repairs. Whether it's a cracked iPhone screen or a PS5 that won't turn on, we diagnose it, price it fairly, and fix it right.</p>
+          <ul class="about-list">
+            <li><span class="check-circle">✓</span> Most repairs completed in 1–2 hours, same day</li>
+            <li><span class="check-circle">✓</span> Upfront pricing — you approve before we start</li>
+            <li><span class="check-circle">✓</span> Free diagnostics — no charge to find the problem</li>
+            <li><span class="check-circle">✓</span> Walk-ins always welcome, no appointment needed</li>
+            <li><span class="check-circle">✓</span> In-store shopping and in-store pickup available</li>
+          </ul>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="quote.html" class="btn btn-primary">Get a Free Quote</a>
+            <a href="tel:+18188383000" class="btn" style="background:#f3f4f6;color:var(--primary);font-weight:600;">📞 (818) 838-3000</a>
+          </div>
         </div>
       </div>
     </div>
